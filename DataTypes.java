@@ -1,6 +1,6 @@
 /**
- * Program untuk menentukan apakah suatu nilai
- * berada di range byte, short, integer, atau long
+ * Program untuk menentukan suatu nilai dapat disimpan
+ * di tipe data byte, short, integer, atau long
  * @version 1.0 12-02-2022
  * @author Fardan Al Jihad
  */
