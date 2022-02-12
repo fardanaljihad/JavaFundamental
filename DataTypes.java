@@ -15,11 +15,11 @@ public class DataTypes {
 
 		/* Algoritma */
 		Scanner sc = new Scanner(System.in);
-		T = sc.nextInt();
+		T = sc.nextInt();	// Masukkan banyak test case yang ingin dilakukan
 	
 		for (counter = 1; counter <= T; counter++){
 			try {
-				N = sc.nextLong();
+				N = sc.nextLong();	// Masukkan nilai yang ingin diuji
 				System.out.println(N + " can be fitted in:");
 				if (N >= -128 && N <= 127){
 					System.out.println("* byte\n* short\n* integer\n* long"); 
@@ -33,7 +33,7 @@ public class DataTypes {
 				if (N >= -9223372036854775808L && N <= 9223372036854775807L){
 					System.out.println("* long");
 				}
-			} catch(Exception e){
+			} catch(Exception e){		// Jika terjadi error saat runtime
 				System.out.println(sc.next() + " can't be fitted anywhere.");
 			  }
 		}
