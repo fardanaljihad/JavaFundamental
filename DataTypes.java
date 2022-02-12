@@ -33,7 +33,7 @@ public class DataTypes {
 				if (N >= -9223372036854775808L && N <= 9223372036854775807L){
 					System.out.println("* long");
 				}
-			} catch(Exception e){		// Jika terjadi error saat runtime
+			} catch(Exception e){	// Jika terjadi error saat runtime yang disebabkan nilai uji melebihi kapasitas tipe data long
 				System.out.println(sc.next() + " can't be fitted anywhere.");
 			  }
 		}
