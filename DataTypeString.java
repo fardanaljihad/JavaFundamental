@@ -24,7 +24,7 @@ public class DataTypeString {
 		} else {
 			System.out.println("No");
 		  }
-		// Menggabungkan dua buah String dengan mengubah huruf awalnya menjadi huruf kapital
+		// Menampilkan gabungan dari dua buah String yang huruf awalnya diubah menjadi huruf kapital
 		System.out.println(A.substring(0, 1).toUpperCase() + A.substring(1) + " " 
 		+ B.substring(0, 1).toUpperCase() + B.substring(1));
 	}
