@@ -1,6 +1,6 @@
 /**
- * Program untuk menentukan apakah suatu nilai
- * berada di range byte, short, integer, atau long
+ * Program untuk menghitung jumlah panjang elemen dari dua buah String,
+ * membandingkan dua buah String, dan menggabungkan dua buah String
  * @version 1.0 13-02-2022
  * @author Fardan A
  */
@@ -24,7 +24,7 @@ public class DataTypeString {
 		} else {
 			System.out.println("No");
 		  }
-
+		// Menggabungkan dua buah String dengan mengubah huruf awalnya menjadi huruf kapital
 		System.out.println(A.substring(0, 1).toUpperCase() + A.substring(1) + " " 
 		+ B.substring(0, 1).toUpperCase() + B.substring(1));
 	}
